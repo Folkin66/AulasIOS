@@ -1,0 +1,16 @@
+table {
+    padding: 10%;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    background-color: crimson;
+}
+td {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: x-small;
+    background-color:  bisque;
+}
