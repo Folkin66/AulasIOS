@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+    background-color: darkcyan;
+}
+
+h1 {
+    text-shadow: 20px 5px 10px ;
+    font-size: 100px;
+    text-align: center;
+}
+
+.h {
+    font-style: italic;
+    text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+}
+
+.ppp {
+    color: darkblue;
+    font-size: 50px;
+    text-align: justify;
+}
