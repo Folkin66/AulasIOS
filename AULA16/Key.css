@@ -1,0 +1,21 @@
+.container>img:hover {
+    animation: movimento 1.5s ease-in-out infinite;
+}
+
+@keyframes movimento {
+    0% {
+        transform: translateX(0px);
+    }
+
+    33% {
+        transform: translateX(-25px);
+    }
+
+    66% {
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
