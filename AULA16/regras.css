@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+h1 {
+    color: cadetblue;
+}
+
+@media screen and (max-width: 320px) {
+    /* eqnt tela nao for maior que 320px */
+    h1{
+        color: rebeccapurple;
+        font-size: 2.3rem;
+    }
+}
+
+@media print and (max-width: 800px) {
+    
+}
