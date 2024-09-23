@@ -1,0 +1,13 @@
+* {
+    margin: 2em;
+}
+
+.container {
+    border: solid 2px black;
+    overflow: auto;
+}
+
+img {
+    border:  solid 1px cadetblue;
+    float: right;
+}

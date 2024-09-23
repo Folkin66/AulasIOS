@@ -1,0 +1,50 @@
+* {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.div {
+    width: 450px;
+    background-color: rgb(49, 58, 58);
+
+    padding: 20px;
+
+    margin-left: 0px;
+    margin-bottom: 20px;
+
+    border-top: dotted chocolate;
+    border-bottom: solid 8px chocolate;
+    border-left: solid 2px chocolate;
+    border-right: solid 2px chocolate;
+}
+
+.h21 {
+    color: white;
+}
+
+.p1 {
+    color: white;
+}
+
+.h22 {
+    margin-left: 0px;
+}
+
+.p2 {
+    margin-left: 0px;
+}
+
+.butao {
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+.sect {
+    background-color: rgb(236, 233, 238);
+    padding: 35px;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tyle.css">
+    <title></title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+
+        </h1>
+    </header>
+
+    <main>
+        <form action="">
+
+            <fieldset>
+                <legend>Cadastro</legend>
+                <label for="">Nome:</label>
+                <input type="text">
+                <label for="">Email:</label>
+                <input type="email">
+                <br><br>
+                <label for="">Contato:</label>
+                <input type="number">
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Região</legend>
+                <p>Lista de carros:</p>
+                <select name="carros" id="listaCarro">
+                    <option hidden>Selecione</option>
+                    <option value="evoque">Evoque</option>
+                    <option value="celta">Celta</option>
+                    <option value="jetta">Jetta</option>
+                    <option value="hb20">HB20</option>
+                    <option value="mercedes gle">Mercedes GLE</option>
+            
+
+
+
+            </select>
+
+            <p>Região:</p>
+
+            <input autocomplete="on" list="regiao" placeholder="Escolha sua Região">
+            <datalist id="regiao">
+                <option value="São Paulo"></option>
+                <option value="Juquitiba"></option>
+                <option value="Paraná"></option>
+            </datalist>
+            <br><br>
+            <input type="range">
+            <br><br>
+        <br>
+            <label for="feedback">Deixe seu feedback aqui!</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Avaliação do atendimento</legend>
+            <input type="radio">
+            <label for="">Bom</label>
+            <br>
+            <input type="radio">
+            <label for="">Regular</label>
+            <br>
+            <input type="radio">
+            <label for="">Ruim</label>
+            <br><br>
+
+            <textarea name="" id="feedback" cols="30" rows="5" required placeholder="Deixe seu feedback."
+                maxlength="100" minlength="50"></textarea>
+            <br><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
