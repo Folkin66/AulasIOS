@@ -13,5 +13,31 @@ h1 {
 }
 
 @media print and (max-width: 800px) {
-    
+    h1 {
+        color: blue;
+    }
+
+    h2 {
+        color: blueviolet;
+    }
+}
+
+@media (max-width: 481px) {
+    h2 {
+        color: violet;
+    }
+}
+
+@media (min-width: 769px) {
+    h3 {
+        background-color: brown;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1035px) and (max-width: 1200px) {
+    h2,h3,h4,h5 {
+        display: none;
+    }
 }
