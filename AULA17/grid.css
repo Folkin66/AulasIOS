@@ -8,9 +8,9 @@ body {
     width: 900px;
     background-color: aqua;
     display: flex;
-    justify-content: ;
+    justify-content: center;
     flex-direction: row;
-    align-items: ;
+    align-items: center;
 }
 
 .box {
@@ -38,5 +38,4 @@ body {
     /* order: 1; */
     /* flex-grow: 4; */
     /* flex-shrink: 3; */
-    flex
 }
