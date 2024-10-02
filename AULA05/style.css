@@ -1,0 +1,13 @@
+body {
+    background-color:  gray;
+    color: antiquewhite;
+}
+h1 {
+    color: blueviolet;
+}
+p {
+    color: aliceblue;
+}
+div{
+    text-align: center;
+}

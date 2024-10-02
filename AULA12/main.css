@@ -1,0 +1,30 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.titulo {
+    color:purple ;
+}
+
+.italico {
+    font-style: italic;
+}
+ .sombra{
+    text-shadow: 5px 5px 7px;
+ }
+
+ #ola {
+    color: blueviolet;
+ }
+
+ #alo {
+    color: brown;
+ }
+
+ #eai {
+    color: blue;
+ }
+
+ #par {
+    background-color: black;
+ }

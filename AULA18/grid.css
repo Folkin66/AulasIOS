@@ -1,0 +1,51 @@
+.container {
+    height: 600px;
+    width: 1100px;
+    margin: 25px auto;
+    border: solid 1px black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "h h h h h"
+    "a b b b w"
+    "a b b b w"
+    "j j p p p"
+    "q q q q q"
+    ;
+}   
+
+.b1 {
+    grid-area: h;
+    background-color: chartreuse;
+}
+
+.b2 {
+    grid-area: a;
+    background-color: chocolate;
+}
+
+.b3 {
+    grid-area: b;
+    background-color: grey;
+}
+
+.b4 {
+    grid-area: w;
+    background-color: brown;
+}
+
+.b5 {
+    grid-area: j;
+    background-color: aqua;
+}
+
+.b6 {
+    grid-area: p;
+    background-color: cadetblue;
+}
+
+.b7 {
+    grid-area: q;
+    background-color: green;
+}

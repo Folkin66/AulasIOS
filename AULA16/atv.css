@@ -1,0 +1,30 @@
+@media (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 1.5em;
+        font-family: arial;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    display: none;
+    }  
+}
+
+@media screen and (min-width: 1025px) {
+    p {
+    text-align: justify;
+    }
+
+    h1 {
+    text-align: center;
+    color: red;
+    }
+
+    h2 {
+        text-align: center;
+        color: purple;
+    }
+}
+

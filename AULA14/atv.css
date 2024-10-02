@@ -1,0 +1,12 @@
+div {
+    margin: 10px;
+    width: 25vw;
+}
+
+.primero {
+    float: left;
+}
+
+.segundo {
+    float: right;
+}
