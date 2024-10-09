@@ -53,4 +53,3 @@ let peso = Number(prompt('Digite seu peso em kg:'))
 let calc = peso / (alt * alt)
 
 alert(`Seu IMC é ${calc}.`)
-
