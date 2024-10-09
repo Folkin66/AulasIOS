@@ -47,8 +47,8 @@
 
 
 
-let alt = prompt('Digite vossa altura:')
-let peso = prompt('Digite seu peso em kg:')
+let alt = Number(prompt('Digite vossa altura:'))
+let peso = Number(prompt('Digite seu peso em kg:'))
 
 let calc = peso / (alt * alt)
 
