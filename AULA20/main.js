@@ -46,10 +46,13 @@
 // } 6
 
 
+let alt = Number(prompt ("Insira sua altura em cm:"))
+let pes = Number(prompt ("Insira seu peso em kg:"))
 
-let alt = Number(prompt('Digite vossa altura:'))
-let peso = Number(prompt('Digite seu peso em kg:'))
-
-let calc = peso / (alt * alt)
-
-alert(`Seu IMC é ${calc}.`)
+if (!isNaN(alt) && !isNaN(pes) && alt > 0 && pes > 0) {
+    let altEmMetros =   alt / 100;
+    let calc = pes / (altEmMetros * altEmMetros);
+    alert(`Seu IMC é: ${calc.toFixed(2)}`);
+} else {
+    alert('Insira um número válido.');
+}

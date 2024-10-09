@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Script</title>
+</head>
+
+<body>
+
+    <script>
+        let nome = prompt('Qual é o seu nome?')
+
+        let estMatriculado = prompt('Está matriculado em algum curso? (sim-não)')
+
+        estMatriculado = estMatriculado.toUpperCase()
+
+        let ra = estMatriculado == "SIM" ? "Aluno possui R.A." : "Aluno não possui R.A."
+
+        alert(`O jovem ${nome} ${ra}`)
+    </script>
+
+</body>
+
+</html>
