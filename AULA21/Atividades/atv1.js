@@ -1,17 +1,17 @@
-// let num1 = Number(prompt ('Insira um número:'))
-// let num2 = Number(prompt ('Insira outro número:'))
-// let soma = num1 + num2
+let num1 = Number(prompt ('Insira um número:'))
+let num2 = Number(prompt ('Insira outro número:'))
+let soma = num1 + num2
 
-// alert(`O resultado de sua soma é ${soma}.`) 1
-
-
-// let msg = "Calma calabreso!"
-// alert(`${msg}`) 2
+alert(`O resultado de sua soma é ${soma}.`)
 
 
-// let nomes = true
-// alert(`${typeof nomes}`) 3
+let msg = "Calma calabreso!"
+alert(`${msg}`)
 
 
-// let vlrNum = Number(3.1415)
-// alert(`${vlrNum}`)
+let nomes = true
+alert(`${typeof nomes}`)
+
+
+let vlrNum = Number(3.1415)
+alert(`${vlrNum}`)
